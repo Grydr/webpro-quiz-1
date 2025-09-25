@@ -1,0 +1,22 @@
+@import "_custom.scss";
+
+// Import all of Bootstrap’s CSS
+@import "bootstrap/scss/bootstrap";
+
+a {
+    text-decoration-line: none;
+}
+
+nav {
+    background-color: $body-secondary-color;
+}
+
+.card {
+    img {
+        min-height: auto;
+    }
+}
+
+.nav-item {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
