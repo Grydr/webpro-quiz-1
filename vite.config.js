@@ -2,10 +2,20 @@ import { defineConfig } from "vite"
 import { resolve } from "path"
 
 export default {
+    base: "/webpro-quiz-1/",
     root: resolve(__dirname, 'src'),
     publicDir: "../assets",
     build: {
-        outDir: '../build'
+        outDir: '../build',
+        rollupOptions: {
+            input: {
+              index:     resolve(__dirname, "src/index.html"),
+              hometown:  resolve(__dirname, "src/hometown.html"),
+              food:      resolve(__dirname, "src/food.html"),
+              tourist:   resolve(__dirname, "src/tourist.html"),
+              profile:   resolve(__dirname, "src/profile.html"),
+            }
+        },
     },
     server: {
         port: 8080

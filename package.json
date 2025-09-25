@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "vite",
-    "build": "vite build",
+    "build": "rm -rf build && vite build",
+    "preview": "vite preview",
+    "deploy": "gh-pages -d build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -13,6 +15,7 @@
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "sass": "^1.93.1",
     "vite": "^7.1.7"
   },
