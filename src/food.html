@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Local Food</title>
+</head>
+
+<body>
+  <nav data-bs-theme="dark"></nav>
+
+  <div class="container py-4">
+    <h1 class="mb-3 text-center">Local Dishes to Try</h1>
+
+    <div id="sbyCarousel" class="carousel slide mb-4" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#sbyCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+          aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#sbyCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#sbyCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#sbyCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      </div>
+
+      <div class="carousel-inner rounded overflow-hidden">
+        <div class="carousel-item active">
+          <img src="img/surabaya/rawon.jpg" class="d-block w-75 mx-auto" height="600"
+            alt="Rawon">
+        </div>
+
+        <div class="carousel-item">
+          <img src="img/surabaya/rujak_cingur.jpg" class="d-block w-75 mx-auto" alt="Rujak Cingur">
+        </div>
+
+        <div class="carousel-item">
+          <img src="img/surabaya/lontong_balap.jpg" class="d-block w-75 mx-auto"
+            alt="Lontong Balap">
+        </div>
+
+        <div class="carousel-item">
+          <img src="img/surabaya/semanggi.jpg" class="d-block w-75 mx-auto"
+            alt="Semanggi">
+        </div>
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#sbyCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#sbyCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item"><strong>Rawon</strong> — Black beef soup with <em>kluwek</em>, rich and savory.
+          </li>
+          <li class="list-group-item"><strong>Rujak Cingur</strong> — Salad with sliced cow snout, peanut-petis
+            dressing.</li>
+          <li class="list-group-item"><strong>Lontong Balap</strong> — Rice cake with bean sprouts, tofu, and
+            <em>lentho</em>.
+          </li>
+          <li class="list-group-item"><strong>Semanggi</strong> — Clover leaf salad with earthy peanut sauce.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="./js/main.js"></script>
+</body>
+
+</html>

@@ -1,7 +1,9 @@
+import { defineConfig } from "vite"
 import { resolve } from "path"
 
 export default {
     root: resolve(__dirname, 'src'),
+    publicDir: "../assets",
     build: {
         outDir: '../build'
     },

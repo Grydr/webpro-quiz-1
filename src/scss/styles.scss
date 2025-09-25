@@ -1,5 +1,8 @@
 @import "_custom.scss";
 
+$bootstrap-icons-font-dir: "bootstrap-icons/font/fonts";
+@import "bootstrap-icons/font/bootstrap-icons";
+
 // Import all of Bootstrap’s CSS
 @import "bootstrap/scss/bootstrap";
 
@@ -9,12 +12,6 @@ a {
 
 nav {
     background-color: $body-secondary-color;
-}
-
-.card {
-    img {
-        min-height: auto;
-    }
 }
 
 .nav-item {
