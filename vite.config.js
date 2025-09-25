@@ -9,7 +9,7 @@ export default {
         outDir: '../build',
         rollupOptions: {
             input: {
-              index:     resolve(__dirname, "index.html"),
+              main:     resolve(__dirname, "index.html"),
               hometown:  resolve(__dirname, "src/hometown.html"),
               food:      resolve(__dirname, "src/food.html"),
               tourist:   resolve(__dirname, "src/tourist.html"),
